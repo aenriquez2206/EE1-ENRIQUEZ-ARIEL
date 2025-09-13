@@ -1,0 +1,105 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    height:80px ;
+    border-bottom:solid 1px white;
+    width: 100%;
+}
+
+ header figure{
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+figure img{
+    height:40px;
+}
+
+header ul{
+    display: flex;
+}
+header ul li{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 20px;
+}
+
+li div{
+    padding: 5px;
+}
+
+
+
+.contenedorPrincipal{
+    background: linear-gradient(to bottom, red, white);
+    width: calc(80%-30px);
+    text-align: center;
+    border-bottom: solid 1px grey;
+    padding-bottom: 40px;
+}
+
+.bannerMario{
+    padding: 10px;
+    width: 97%;
+    border-radius: 1;
+    align-self: center;
+    border-radius: 4cap;
+}
+.tituloContenedrPrincipal{
+    font-size: xx-large;
+}
+
+#botonRojo{
+    background-color: red;
+    color: white;
+    border-radius: 1cap;
+    border: 0px;
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    font-size: large;
+}
+
+.contenedorItemsJuegos{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    border: black;
+    width: calc(90%);
+}
+
+.itemsJuegos{
+    margin: 20px;
+    border: solid black 1px;
+    border-color: black;
+    align-items: center;
+    padding: 20px;
+    border-radius: 1cap ;
+    width: calc(100%);
+}
+
+.fotosJuegos{
+    border-radius: 1cap;
+    width: calc(100%);
+}
+
+.botonAzul{
+    background-color: royalblue;
+    color: white;
+    border-radius: 0.5cap;
+    border: 0px;
+    height: 40px;
+    font-size: large;
+}
